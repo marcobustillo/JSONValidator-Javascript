@@ -1,2 +1,2 @@
-# JSONValidator-Javascript-
+# JSONValidator-Javascript
 JSON Validator using Javascript
