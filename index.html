@@ -3,29 +3,29 @@
   <head>
     <link rel="stylesheet" href="./css/main.css">
     <title>JSON Validator</title>
+    <meta name="description" content="JSON Validator">
+    <meta name="author" content="Marco Polo Bustillo">
   </head>
-  <body class="grid">
-
-    <nav>
-      <div>
+  <body>
+    <div class="grid">
+      <nav class="item-a">
         <ul>
-          <li>JSON Validator</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="#">JSON Validator</a></li>
+          <li class="right"><a href="#">About</a></li>
+          <li class="right"><a href="#">Contact</a></li>
         </ul>
-      </div>
-    </nav>
+      </nav>
 
-    <div>
-      <textarea id="jsonvalidator" class="item-b" placeholder="JSON Validator"></textarea>
-      <div>
-        <button id="validate">Validate</button>
-      </div>
-      <div>
-        <h1 id="valid"></h1>
+      <div class="item-b">
+        <textarea id="jsonvalidator" placeholder="JSON Validator"></textarea>
+        <div>
+          <button id="validate">Validate</button>
+        </div>
+        <div>
+          <h1 id="valid"></h1>
+        </div>
       </div>
     </div>
-
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.js"
       integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
