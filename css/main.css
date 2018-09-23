@@ -1,0 +1,17 @@
+html, body {
+  height:100%;
+  text-align: center;
+}
+
+
+textarea {
+  width: 50%;
+  float: top;
+  overflow: scroll;
+  margin: auto;
+  display: inline-block;
+  background: #f4f4f9;
+  outline: none;
+  font-family: Courier, sans-serif;
+  font-size: 14px;
+}
