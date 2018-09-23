@@ -5,12 +5,16 @@ html, body {
 
 
 textarea {
+  background: url(http://i.imgur.com/2cOaJ.png);
+  background-attachment: local;
+  background-repeat: no-repeat;
   width: 50%;
   float: top;
   overflow: scroll;
   margin: auto;
   display: inline-block;
-  background: #f4f4f9;
+  padding-left: 35px;
+  padding-top: 10px;
   outline: none;
   font-family: Courier, sans-serif;
   font-size: 14px;
