@@ -7,8 +7,8 @@
     <meta name="author" content="Marco Polo Bustillo">
   </head>
   <body>
-    <div class="grid">
-      <nav class="item-a">
+    <div>
+      <nav>
         <ul>
           <li><a href="#">JSON Validator</a></li>
           <li class="right"><a href="#">About</a></li>
@@ -16,13 +16,14 @@
         </ul>
       </nav>
 
-      <div class="item-b">
+      <div>
         <textarea id="jsonvalidator" placeholder="JSON Validator"></textarea>
         <div>
           <button id="validate">Validate</button>
+          <button id="clear">Clear</button>
         </div>
         <div>
-          <h1 id="valid"></h1>
+          <pre id="valid"></pre>
         </div>
       </div>
     </div>

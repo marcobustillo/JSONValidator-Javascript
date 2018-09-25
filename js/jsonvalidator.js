@@ -2,7 +2,7 @@ $(document).ready(()=>{
 
 	function isJSONValid(json){
 		try{
-	  	var obj = JSON.parse(json);
+	  	let obj = JSON.parse(json);
 	    if(obj && typeof obj === 'object' && obj !== null){
 	      return true;
 	    }
@@ -15,9 +15,13 @@ $(document).ready(()=>{
 	$('#validate').on('click',()=>{
 
 		let json = $('#jsonvalidator').val();
+		console.log(typeof json);
+		isJSONValid(json) ? $("#valid").html(JSON.stringify(JSON.parse(json),undefined,2)) : $("#valid").text('INVALID');
 
-		isJSONValid(json) ? $('#valid').text('VALID') : $('#valid').text('INVALID')
-		
+	});
+
+	$('#clear').on('click',()=>{
+		$('#jsonvalidator').val("");
 	});
 
 	$('textarea').autoResize();
