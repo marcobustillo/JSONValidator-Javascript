@@ -2,4 +2,4 @@
 JSON Validator using Javascript
 
 ### Live Demo
-https://oyoyoi.github.io/JSONValidator-Javascript/
+https://marcobustillo.github.io/JSONValidator-Javascript/
